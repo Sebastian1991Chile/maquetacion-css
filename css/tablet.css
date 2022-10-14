@@ -3,3 +3,15 @@
 .social__icons {
     margin: 0 0 0 auto;
 }
+
+.header__nav {
+    padding: 0px 10%;
+}
+
+.logo__link img {
+    width: 220px;
+}
+
+.main__content h1 {
+    font-size: 4rem;
+}

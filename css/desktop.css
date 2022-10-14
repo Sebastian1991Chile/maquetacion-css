@@ -1,0 +1,14 @@
+/* Main */
+
+.main--home {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.main__content {
+    grid-column: 2 / 4;
+}
+
+.main__content h1 {
+    margin: 0;
+    font-size: 5rem;
+}
