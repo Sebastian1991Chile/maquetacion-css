@@ -1,0 +1,53 @@
+/* Variables */
+
+:root {
+    --primary-color: #47cfac;
+}
+
+/* General */
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.header__social {
+    padding: 0px 10%;
+    background-color: var(--primary-color);
+}
+
+.social__icons {
+    margin: 0 auto;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__nav {
+    padding: 0px 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.nav__perfil {
+    display: flex;
+    justify-content: flex-end;
+}
