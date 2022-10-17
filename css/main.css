@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
 /* Variables */
 
 :root {
     --primary-color: #47cfac;
+    --secundary-color: #e6e9ed;
     --only-dark : rgb(32, 32, 32);
     --only-light: rgb(255, 247, 247);
 }
@@ -15,12 +19,25 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 a {
     color: #000;
     text-decoration: none;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 /* Body */
@@ -86,7 +103,7 @@ a {
     color: var(--only-light);
 }
 
-/* Main */
+/* Home - Main */
 
 .home__main {
     height: 100%;
@@ -114,27 +131,71 @@ a {
     margin: 0 10%;
     font-size: 3.5rem;
     font-weight: 400;
-    letter-spacing: 1rem;
+    letter-spacing: 0.5rem;
     text-align: center;
     color: var(--only-light);
 }
 
-.home__section--button {
-    height: 50px;
+.home--button {
     margin: 0 auto;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
-    font-size: 2rem;
     font-weight: bold;
     background-color: var(--primary-color);
     color: var(--only-light);
 }
 
-.home__section--button:hover {
-    cursor: pointer;
+.home--button:hover {
     background-color: var(--only-light);
     color: var(--only-dark);
+}
+
+/* Blogs - Main */
+
+.blogs__presentation {
+    padding: 25px 10%;
+    display: grid;
+    gap: 25px;
+    background-color: var(--secundary-color);
+}
+
+.blogs--notices {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--only-dark);
+}
+
+.blogs__image img {
+    width: 100%;
+}
+
+.blogs__container {
+    display: grid;
+    gap: 25px;
+}
+
+.blogs--title {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--only-dark);
+}
+
+.blogs--paragraph {
+    margin: 0;
+    font-size: 1.6rem;
+    color: var(--only-dark);
+}
+
+.blogs--button {
+    margin: 0 auto;
+    font-size: 1.6rem;
+    border: 2px solid var(--primary-color);
+    color: var(--only-dark);
+}
+
+.blogs--button:hover {
+    border-color: transparent;
+    background-color: var(--only-dark);
+    color: var(--only-light);
 }
