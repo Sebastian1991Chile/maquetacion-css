@@ -123,6 +123,9 @@ a {
     height: 50px;
     margin: 0 auto;
     width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     font-size: 2rem;
     font-weight: bold;
