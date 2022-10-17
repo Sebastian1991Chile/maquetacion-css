@@ -1,14 +1,14 @@
 /* Main */
 
-.main--home {
+.home__main {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.main__content {
+.home__section {
     grid-column: 2 / 4;
 }
 
-.main__content h1 {
+.home__section--title {
     margin: 0;
     font-size: 5rem;
 }

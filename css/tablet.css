@@ -12,6 +12,8 @@
     width: 220px;
 }
 
-.main__content h1 {
+/* Main */
+
+.home__section--title {
     font-size: 4rem;
 }
