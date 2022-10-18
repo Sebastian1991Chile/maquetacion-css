@@ -199,3 +199,64 @@ a {
     background-color: var(--only-dark);
     color: var(--only-light);
 }
+
+.blogs__blogposts {
+    padding: 25px 10%;
+    display: grid;
+    gap: 25px;
+}
+
+.blogs__blogposts--title {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.blogposts__container {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+    gap: 50px;
+    justify-content: center;
+    border-top: 2px solid var(--secundary-color);
+}
+
+.post {
+    display: grid;
+    gap: 25px;
+}
+
+.post--image {
+    width: 100%;
+}
+
+.post--title {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.post--paragraph {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.blogs--button {
+    margin: 0 auto 0 0;
+}
+
+/* Footer */
+
+.footer {
+    height: 100px;
+    padding: 0 10%;
+    display: grid;
+    align-items: center;
+    background-color: var(--only-dark);
+    border-top: 25px solid var(--primary-color);
+}
+
+.footer--text {
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--only-light);
+}
