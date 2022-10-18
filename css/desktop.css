@@ -52,3 +52,9 @@
 .blogs--paragraph {
     font-size: 2rem;
 }
+
+/* Blog */
+
+.blog__contact {
+    grid-template-columns: 1fr 1fr;
+}
